@@ -5,8 +5,8 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.his.emr</groupId>
-        <artifactId>emr</artifactId>
+        <groupId>com.his</groupId>
+        <artifactId>his</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>emr</artifactId>
@@ -22,6 +22,21 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.0.2.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>4.0.2.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.0.2.RELEASE</version>
         </dependency>
     </dependencies>
 
