@@ -30,7 +30,12 @@
     margin: 0;
 }
 
-.navbar a:hover:not(.active), .dropdown:hover, .dropbtn {
+.dropbtn-active {
+    background-color: #008CBA;
+    color:white;
+}
+
+.navbar a:hover:not(.active), .dropdown:hover {
     background-color: #e7e7e7;
 }
 
