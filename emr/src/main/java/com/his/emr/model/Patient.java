@@ -1,14 +1,17 @@
-package com.his.emr.domain;
+package com.his.emr.model;
 
-import java.util.Objects;
+import java.io.Serializable;
 
-public class Patient {
+public class Patient implements Serializable {
 
     private String firstName;
 
     private String lastName;
 
     private String country;
+
+    public Patient() {
+    }
 
     public Patient(String firstName, String lastName, String country) {
         this.firstName = firstName;
@@ -20,28 +23,24 @@ public class Patient {
         return firstName;
     }
 
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
     public String getLastName() {
         return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getCountry() {
         return country;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Patient patient = (Patient) o;
-        return Objects.equals(firstName, patient.firstName) &&
-                Objects.equals(lastName, patient.lastName) &&
-                Objects.equals(country, patient.country);
-    }
-
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(firstName, lastName, country);
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     @Override
