@@ -1,4 +1,4 @@
-package com.his.emr.model;
+package com.his.emr.domain;
 
 import java.io.Serializable;
 

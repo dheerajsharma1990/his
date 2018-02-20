@@ -1,6 +1,6 @@
 package com.his.emr.controller;
 
-import com.his.emr.model.Patient;
+import com.his.emr.domain.Patient;
 import com.his.emr.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

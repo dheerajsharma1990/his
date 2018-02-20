@@ -1,6 +1,6 @@
 package com.his.emr.service;
 
-import com.his.emr.model.Patient;
+import com.his.emr.domain.Patient;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
